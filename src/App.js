@@ -77,7 +77,7 @@ function App() {
       </div>
       {
         videos.length > 0 && (
-          <div className='pagination'>
+          <div className="pagination">
             <button onClick={onClickPrev} disabled={!prevPageToken}>prev</button>
             <button onClick={onClickNext} disabled={!nextPageToken}>next</button>
           </div>
